@@ -28,7 +28,9 @@ public class size{
             grade_arr[i] = grade;
         }
 
-        System.out.println(Arrays.toString(grade_arr));
+        for(int i = 0; i < people_num; i++){
+            System.out.print(grade_arr[i]+" ");
+        }
         
     }
 }
